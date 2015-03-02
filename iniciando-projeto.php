@@ -135,7 +135,7 @@ nothing to commit, working directory clean</xmp>
         <div class="destaque codigo">
         	<p>$ git log</p>
             <div class="response"><xmp>commit 599065f32998c216aeb961ba67fd4d6473343c48
-Author: ios <jhonnatan@backstagedigital.com.br>
+Author: ios <user@mail.com.br>
 Date:   Tue Dec 9 17:08:54 2014 -0200
 
     Index added</xmp>

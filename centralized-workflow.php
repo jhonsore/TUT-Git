@@ -67,7 +67,7 @@
         </ul>
 
          <div class="destaque codigo">
-            <p>cd /Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/projetos/backstage</p>
+            <p>cd /Folder/</p>
         </div>
 
 
@@ -85,7 +85,7 @@
         </ul>
 
          <div class="destaque codigo">
-            <p>$ git clone file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/backstage </p>
+            <p>$ git clone file://///Folder Name/ </p>
         </div>
 
 		<h2>Inicia o projeto na pasta pessoal</h2>
@@ -189,7 +189,7 @@ Changes to be committed:
 	new file:   js/.DS_Store
 	new file:   js/scripts.js
 
-iMac-de-ios:backstage ios$ git commit -m "Projeto inicializado"
+iMac-de-ios: ios$ git commit -m "Projeto inicializado"
 [master (root-commit) c63d263] Projeto inicializado
  6 files changed, 29 insertions(+)
  create mode 100644 .DS_Store
@@ -247,7 +247,7 @@ Delta compression using up to 4 threads.
 Compressing objects: 100% (7/7), done.
 Writing objects: 100% (10/10), 3.28 KiB | 0 bytes/s, done.
 Total 10 (delta 1), reused 0 (delta 0)
-To file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/backstage
+To file://///Folder Name/
 [new branch]      master -> master</xmp>
  </div>
         </div>        
@@ -275,7 +275,7 @@ To file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/back
 
 
 <div class="destaque codigo">
-        	<p>$ git clone file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/backstage</p>
+        	<p>$ git clone file://///FOlder Name/</p>
             <div class="response"><xmp>Cloning into 'backstage'...
 remote: Counting objects: 10, done.
 remote: Compressing objects: 100% (7/7), done.
@@ -373,7 +373,7 @@ Delta compression using up to 4 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (3/3), 355 bytes | 0 bytes/s, done.
 Total 3 (delta 2), reused 0 (delta 0)
-To file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/backstage
+To file://///Folder Name/
    c63d263..4ebaebf  master -> master</xmp>
  </div>
         </div>        
@@ -401,7 +401,7 @@ To file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/back
 remote: Compressing objects: 100% (3/3), done.
 remote: Total 3 (delta 2), reused 0 (delta 0)
 Unpacking objects: 100% (3/3), done.
-From file://///Volumes/02_ProjetosWeb/estudos/_jhon/00_GIT/00_TESTES/projetos/backstage
+From file://///Folder Name/
  * branch            master     -> FETCH_HEAD
    c63d263..4ebaebf  master     -> origin/master
 Updating c63d263..4ebaebf
