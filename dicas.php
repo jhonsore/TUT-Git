@@ -328,6 +328,30 @@ alias get='git '
                                 </div>
                             </div>
                         </div>
+
+                       <div class="destaque dica">
+                           <a href="#" class="button">error: The following untracked working tree files would be overwritten by merge</a>
+                           <div class="item">
+                               <div>
+                                   <p>Quando um arquivo está sendo traqueado pelo GIT e depois foi removido por algum motivo, ao dar um pull pode gerar o seguinte erro:</p>
+                                   <div class="response blue">
+                                       * branch            master     -> FETCH_HEAD<br>
+                                       error: The following untracked working tree files would be overwritten by merge:
+                                       .idea/workspace.xml<br>
+                                       Please move or remove them before you can merge.<br>
+                                       Aborting
+                                   </div>
+                                   <p>Nesse caso usar o <span class="codigo red">git rm -r --cached</span> não irá funcionar.</p>
+                                   <p>Devemos usar então o <span class="codigo red">git clean</span>:</p>
+                                   <div class="response blue">git clean  -d  -fx ""</div>
+                                   <ul>
+                                       <li><span class="codigo red">-x</span> quer dizer que os arquivos ignorados também serão removidos assim como os arquivos desconhecidos pelo git.</li>
+                                       <li><span class="codigo red">-d</span> removerá os diretórios e arquivos não trackeados</li>
+                                       <li><span class="codigo red">-f</span> será usado para forçar o git a executar o comando</li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
                         
                         
                         
