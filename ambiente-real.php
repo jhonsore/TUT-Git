@@ -116,7 +116,7 @@ git --work-tree=/var/www/domain.com --git-dir=/var/repo/site.git checkout -f
                     
                     
                     
-                    <ul><li>Quando finalizada a edição, aperte <i class="red">control+d</i> para salvar. Para que o arquivo seja executado, precisaremos liberar as devidas permissões:</li></ul>
+                    <ul><li>Quando finalizada a edição, quebre a linha apertando ENTER, aperte <i class="red">control+d</i> para salvar. Para que o arquivo seja executado, precisaremos liberar as devidas permissões:</li></ul>
                     <div class="destaque codigo">
                         <p>chmod +x post-receive</p>
                     </div>
